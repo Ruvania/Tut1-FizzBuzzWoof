@@ -9,7 +9,7 @@ int main()
 {
 	int i;
 
-	for (i = 1; i < 21; i ++ ) //counter from 1 to 20
+	for (i = 1; i < 20; i ++ ) //counter from 1 to 20
 	{
 		if ((i % 3) == 0 && ((i % 5) == 0)) //divisible by 3 and 5 prints FizzBuzz
 			cout << "\tFizzBuzz\n" << endl; 
@@ -20,5 +20,6 @@ int main()
 		else cout <<"\t"<< i << "\n" << endl; //not divisible by 3 or 5 prints number
 
 	}
+	
 }
 
